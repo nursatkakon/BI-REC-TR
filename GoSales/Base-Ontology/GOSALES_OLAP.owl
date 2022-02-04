@@ -1,0 +1,3246 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#"
+     xml:base="http://watsonhealth.ibm.com/project/hds/enhanced/1.0"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdfs1="#rdfs:"
+     xmlns:rdfs2="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#rdfs:">
+    <owl:Ontology rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- #rdfs:DefaultAggregation -->
+
+    <owl:AnnotationProperty rdf:about="#rdfs:DefaultAggregation"/>
+    
+
+
+    <!-- #rdfs:MeasureType -->
+
+    <owl:AnnotationProperty rdf:about="#rdfs:MeasureType"/>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#rdfs:DefaultAggregation -->
+
+    <owl:AnnotationProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#rdfs:DefaultAggregation"/>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#rdfs:MeasureType -->
+
+    <owl:AnnotationProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#rdfs:MeasureType"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Type -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#Type"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#usage -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#usage"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory_Branch -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory_Branch">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branch"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory_Products -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory_Products">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Products"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory_Time -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory_Time">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast_Branch -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast_Branch">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branch"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast_Productbrand -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast_Productbrand">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast_Products -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast_Products">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Products"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast_Time -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast_Time">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Order -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Order">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Order"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Ordermethod -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Ordermethod">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordermethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Products -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Products">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Products"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Retailers -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Retailers">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailers"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Returnreason -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Returnreason">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returnreason"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Salesstaff -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Salesstaff">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesstaff"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Time -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems_Time">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Branch -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Branch">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branch"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Margin -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Margin">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Order -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Order">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Order"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Ordermethod -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Ordermethod">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordermethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Products -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Products">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Products"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Retailers -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Retailers">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailers"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Retailertype -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Retailertype">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailertype"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Salesstaff -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Salesstaff">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesstaff"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Time -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Time">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Time_closedate -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Time_closedate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_closedate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Time_shipdate -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales_Time_shipdate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_shipdate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Productbrand -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Productbrand">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Products -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Products">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Products"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Retailers -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Retailers">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailers"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Retailertype -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Retailertype">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailertype"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Salesstaff -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Salesstaff">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesstaff"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Time -->
+
+    <owl:ObjectProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_Time">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget"/>
+        <rdfs:range rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Additions -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Additions">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Additions</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Address1 -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Address1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Address1</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Address1_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Address1_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Address1 Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Address2 -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Address2">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Address2</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Address2_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Address2_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Address2 Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Assignedstaffcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Assignedstaffcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Assigned Staff Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Baseproductnumber -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Baseproductnumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Product"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Base Product Number</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Birthdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Birthdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Birth Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#City"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode_value -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Branch Code Value</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#City -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#City">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#City_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#City_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#City"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>City Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Closinginventory -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Closinginventory">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Closing Inventory</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Contactfirstname -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Contactfirstname">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Contact First Name</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Contactfirstname_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Contactfirstname_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Contact First Name Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Contactlastname -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Contactlastname">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Contact Last Name</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Contactlastname_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Contactlastname_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Contact Last Name Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Contactname -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Contactname">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Contact Name</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Country -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Country">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Countrycode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Countrycode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Country Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Currentmonth_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Currentmonth_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Current Month Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Currentquarter_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Currentquarter_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Current Quarter Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Currentyear_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Currentyear_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Current Year Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Date -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Date_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Date_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Date Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Date_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Date_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Date Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Datehired -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Datehired">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Date Hired</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daykey -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daykey">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Key</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daykey_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daykey_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Key Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daykey_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daykey_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Key Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayofthemonth -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayofthemonth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Of The Month</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayofthemonth_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayofthemonth_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Of The Month Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayofthemonth_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayofthemonth_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Of The Month Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheweek -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheweek">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Of The Week</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheweek_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheweek_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Of The Week Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheweek_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheweek_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Of The Week Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheyear -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheyear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Of The Year</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheyear_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheyear_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Of The Year Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheyear_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dayoftheyear_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Day Of The Year Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daysinthemonth -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daysinthemonth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Days In The Month</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daysinthemonth_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daysinthemonth_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Days In The Month Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daysinthemonth_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Daysinthemonth_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Days In The Month Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Departmentcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Departmentcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Department Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Departmentparent -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Departmentparent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Department Parent</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Discontinueddate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Discontinueddate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Discontinued Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Email -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Email">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Email</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Employeehistorycode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Employeehistorycode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Employee History Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Employeehistoryparent -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Employeehistoryparent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Employee History Parent</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Expectedvolume -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Expectedvolume">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Expected Volume</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Extension -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Extension">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Extension</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Fax -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Fax">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Fax</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Firstname -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Firstname">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>First Name</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Firstname_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Firstname_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>First Name Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Followupcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Followupcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Followup Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Forecastrevenue -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Forecastrevenue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Forecast Revenue</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Forecastunitcost -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Forecastunitcost">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>average</rdfs1:DefaultAggregation>
+        <rdfs:label>Forecast Unit Cost</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Forecastunitprice -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Forecastunitprice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>average</rdfs1:DefaultAggregation>
+        <rdfs:label>Forecast Unit Price</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Gender -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Gender">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Gender</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Gendercode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Gendercode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Gender Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Grossprofit -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Grossprofit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Gross Profit</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Introductiondate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Introductiondate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Introduction Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Lastname -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Lastname">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Last Name</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Lastname_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Lastname_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Last Name Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Manager -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Manager">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Manager</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Manager_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Manager_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Manager Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Managercode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Managercode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Manager Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Margin -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Margin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Calculations"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Margin</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_numeric -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_numeric">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Month Numeric</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_value -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Month Value</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Monthkey -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Monthkey">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Month Key</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Monthkey_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Monthkey_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Month Key Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Monthkey_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Monthkey_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Month Key Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Monthnumber -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Monthnumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Month Number</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Openinginventory -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Openinginventory">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Opening Inventory</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Orderdetailcode_value -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Orderdetailcode_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Orderdetailcode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Order Detail Code Value</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordermethodcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordermethodcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordermethodtype"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Order Method Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordernumber_value -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordernumber_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordernumber"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Order Number Value</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordervalue -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordervalue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Calculations"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:MeasureType>Calculation</rdfs1:MeasureType>
+        <rdfs:label>Order Value</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Organization -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Organization">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Organization</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Organizationcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Organizationcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Organization Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Phonenumber -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Phonenumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Phone Number</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Plannedrevenue -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Plannedrevenue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Planned Revenue</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Position -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Position">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Position</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Positioncode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Positioncode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Position Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Positionstartdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Positionstartdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Position Start Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Postalzone -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Postalzone">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Postal Zone</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrand -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrand">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrandcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrandcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrandtype"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Product Brand Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productcolor -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productcolor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Product Color</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productcolorcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productcolorcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Product Color Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productcost -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productcost">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Product Cost</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdescription -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Product Description</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productimage -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productimage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Product Image</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productline -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productline">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productlinecode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productlinecode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productline"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Product Line Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productnumber -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productnumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Product Number</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productsize -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productsize">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Product Size</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productsizecode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productsizecode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Product Size Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Producttype -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Producttype">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Producttypecode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Producttypecode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Producttype"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Product Type Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Province-State -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Province-State">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Province State</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Province-State_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Province-State_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Province State Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Provinceorstate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Provinceorstate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Province Or State</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Provinceorstate_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Provinceorstate_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Province Or State Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quantity -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Quantity</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quantityshipped -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quantityshipped">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Quantity Shipped</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_numeric -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_numeric">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Quantity Numeric</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_value -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Quantity Value</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarterkey -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarterkey">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Quarter Key</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarterkey_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarterkey_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Quarter Key Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarterkey_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarterkey_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Quarter Key Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Recordenddate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Recordenddate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Record End Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Recordstartdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Recordstartdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Record Start Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#RetailerProvince-State -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#RetailerProvince-State">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Province State</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#RetailerProvince-State_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#RetailerProvince-State_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Province State Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retaileractivitystatuscode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retaileractivitystatuscode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Activity Status Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retaileraddress1 -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retaileraddress1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Address1</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retaileraddress1_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retaileraddress1_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Address1 Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retaileraddress2 -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retaileraddress2">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Address2</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retaileraddress2_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retaileraddress2_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Address2 Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercity_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercity_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer City Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercontactcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercontactcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Contact Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercontactposition -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercontactposition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Contact Position</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercountrycode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercountrycode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercountry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Country Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailername_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailername_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Name Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailerpostalzone -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailerpostalzone">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Postal Zone</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailerpostalzone_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailerpostalzone_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Postal Zone Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersitecode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersitecode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Site Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersitestartdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersitestartdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Site Start Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailerstartdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailerstartdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Start Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailertypecode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailertypecode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailertype"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Retailer Type Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returnquantity -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returnquantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Return Quantity</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returnreasoncode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returnreasoncode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Reasondescription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Return Reason Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returnstotalvalue -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returnstotalvalue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Calculations"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:MeasureType>Calculation</rdfs1:MeasureType>
+        <rdfs:label>Returns Total Value</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Revenue -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Revenue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Revenue</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesregioncode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesregioncode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Region"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesregion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Sales Region Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesrepordervalue -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesrepordervalue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Calculations"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:MeasureType>Calculation</rdfs1:MeasureType>
+        <rdfs:label>Sales Rep Order Value</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesstaffcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesstaffcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Sales Staff Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_value -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>total</rdfs1:DefaultAggregation>
+        <rdfs:label>Sales Target Value</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname_multiscript -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname_multiscript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Staff Name Multiscript</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Terminationcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Terminationcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Termination Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Terminationdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Terminationdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Termination Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Unitcost -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Unitcost">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>average</rdfs1:DefaultAggregation>
+        <rdfs:label>Unit Cost</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Unitprice -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Unitprice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>average</rdfs1:DefaultAggregation>
+        <rdfs:label>Unit Price</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Unitsaleprice -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Unitsaleprice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs1:DefaultAggregation>average</rdfs1:DefaultAggregation>
+        <rdfs:label>Unit Sale Price</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#WarehouseBranchcode -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#WarehouseBranchcode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Warehouse Branch Code</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekday -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekday">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Day</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekday_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekday_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Day Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekday_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekday_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Day Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthemonth -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthemonth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Of The Month</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthemonth_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthemonth_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Of The Month Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthemonth_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthemonth_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Of The Month Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthequarter -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthequarter">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Of The Quarter</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthequarter_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthequarter_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Of The Quarter Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthequarter_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekofthequarter_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Of The Quarter Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekoftheyear -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekoftheyear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Of The Year</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekoftheyear_closedate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekoftheyear_closedate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Of The Year Close Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekoftheyear_shipdate -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Weekoftheyear_shipdate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_shipdate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Week Of The Year Ship Date</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Workphone -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Workphone">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Work Phone</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year_closedate_value -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year_closedate_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year_closedate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Year Close Date Value</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year_value -->
+
+    <owl:DatatypeProperty rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs1:DefaultAggregation>none</rdfs1:DefaultAggregation>
+        <rdfs:label>Year Value</rdfs:label>
+        <rdfs:usage>attribute</rdfs:usage>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branch -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branch">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Branch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branch"/>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Calculations -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Calculations">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#ProjectionsGroup"/>
+        <rdfs1:MeasureType>Calculation</rdfs1:MeasureType>
+        <rdfs:Type>Measure</rdfs:Type>
+        <rdfs:label>Calculations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#City -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#City">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesstaff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Country -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Country">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesstaff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_closedate -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_closedate">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_closedate"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Day Close Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_shipdate -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Day_shipdate">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_shipdate"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Day Ship Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension">
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Dimension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Inventory">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#InventoryGroup"/>
+        <rdfs1:MeasureType>Regular</rdfs1:MeasureType>
+        <rdfs:Type>Measure</rdfs:Type>
+        <rdfs:label>Inventory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#InventoryGroup -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#InventoryGroup">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Measure"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Inventory Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Measure -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Measure">
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_closedate -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_closedate">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_closedate"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Month Close Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_shipdate -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Month_shipdate">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_shipdate"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Month Ship Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Order -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Order">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Order</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Orderdetailcode -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Orderdetailcode">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Order"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Order Detail Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordermethod -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordermethod">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Order Method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordermethodtype -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordermethodtype">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordermethod"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Order Method Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordernumber -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Ordernumber">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Order"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Order Number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Product -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Product">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Products"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrand -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrand">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrandtype -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrandtype">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrand"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Product Brand Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productdetails">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrand"/>
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Products"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Product Details</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productforecast">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#ProjectionsGroup"/>
+        <rdfs1:MeasureType>Regular</rdfs1:MeasureType>
+        <rdfs:Type>Measure</rdfs:Type>
+        <rdfs:label>Product Forecast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productline -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productline">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productname -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productname">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrand"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Product Name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Products -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Products">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Products</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Producttype -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Producttype">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#ProjectionsGroup -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#ProjectionsGroup">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Measure"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Projections Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Quarter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_closedate -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_closedate">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_closedate"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Quarter Close Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_shipdate -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Quarter_shipdate">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_shipdate"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Quarter Ship Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Reasondescription -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Reasondescription">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returnreason"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Reason Description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Region -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Region">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailers"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailer -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailer">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailers"/>
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailertype"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Retailer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercountry -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailercountry">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailers"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Retailer Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailers -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailers">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Retailers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailersite">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailers"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Retailer Site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailertype -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Retailertype">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Retailer Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returneditems">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#InventoryGroup"/>
+        <rdfs1:MeasureType>Regular</rdfs1:MeasureType>
+        <rdfs:Type>Measure</rdfs:Type>
+        <rdfs:label>Returned Items</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returnreason -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Returnreason">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Return Reason</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Sales">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#SalesGroup"/>
+        <rdfs1:MeasureType>Regular</rdfs1:MeasureType>
+        <rdfs:Type>Measure</rdfs:Type>
+        <rdfs:label>Sales</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#SalesGroup -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#SalesGroup">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Measure"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Sales Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesregion -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesregion">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesstaff"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Sales Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesstaff -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesstaff">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Sales Staff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salestarget">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#SalesGroup"/>
+        <rdfs1:MeasureType>Regular</rdfs1:MeasureType>
+        <rdfs:Type>Measure</rdfs:Type>
+        <rdfs:label>Sales Target</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Staffname">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Salesstaff"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Staff Name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_closedate -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_closedate">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Time Close Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_shipdate -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_shipdate">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Dimension"/>
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Time Ship Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Year</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year_closedate -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year_closedate">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_closedate"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Year Close Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year_shipdate -->
+
+    <owl:Class rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Year_shipdate">
+        <rdfs:subClassOf rdf:resource="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Time_shipdate"/>
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Year Ship Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Branchcode">
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Branch Code</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#City">
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>City</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Country">
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Country</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productbrand">
+        <rdfs:Type>Meta Concept</rdfs:Type>
+        <rdfs:label>Product Brand</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Productline">
+        <rdfs:label>Product Line</rdfs:label>
+        <rdfs:Type>Dimension</rdfs:Type>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://watsonhealth.ibm.com/project/hds/enhanced/1.0#Producttype">
+        <rdfs:Type>Dimension</rdfs:Type>
+        <rdfs:label>Product Type</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

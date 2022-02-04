@@ -1,0 +1,222 @@
+BI Analysis Query Pattern
+BI Operation Drill Down Pattern
+BI Operation Roll Up Pattern
+BI Operation Pivot Pattern
+BI Ranking Pattern
+BI Trend Pattern
+BI Comparison Pattern
+SUM
+COUNT
+AVERAGE
+MAX
+MIN
+Dimension
+Order Detail Code Value
+Inventory Group
+Month Numeric
+Quantity Numeric
+Week Of The Year Close Date
+Day Ship Date
+Days In The Month Close Date
+Date
+Current Month Ship Date
+Product Brand Type
+Contact First Name
+Phone Number
+Product Color Code
+Retailers
+Month
+Province State
+Retailer Site Code
+Sales Target Value
+Employee History Code
+Position Code
+Work Phone
+Month Value
+Day
+Product Forecast
+Product Image
+Gender Code
+Year Value
+City
+Month Key Close Date
+Retailer City Multiscript
+Year Close Date Value
+Record End Date
+Month Ship Date
+Retailer Type
+Day Of The Year
+Retailer Contact Code
+Product Type
+Termination Date
+Order Method Code
+Return Reason Code
+Year
+Introduction Date
+Date Ship Date
+Product Details
+Contact Last Name Multiscript
+Month Close Date
+Day Close Date
+Address1 Multiscript
+Time
+Record Start Date
+Region
+Retailer Province State
+Product Name
+Retailer Postal Zone Multiscript
+Country Code
+Calculations
+Week Of The Month
+Fax
+Department Parent
+Quarter Key Ship Date
+Order Method
+Last Name Multiscript
+Year Close Date
+Birth Date
+Day Key
+Sales Staff
+Retailer Site Start Date
+Unit Price
+Day Of The Week
+Quarter Ship Date
+Organization Code
+Order Value
+Order Number
+Staff Name
+Margin
+Contact First Name Multiscript
+Current Quarter Ship Date
+Manager Multiscript
+Sales Region Code
+Position
+Quarter Key Close Date
+Projections Group
+Week Day Ship Date
+Product Type Code
+Organization
+Week Of The Year
+Product Description
+Month Number
+Product Number
+Staff Name Multiscript
+Employee History Parent
+Address2 Multiscript
+Product Brand Code
+Unit Sale Price
+Termination Code
+Retailer Site
+Days In The Month
+Return Reason
+Sales Group
+Assigned Staff Code
+Opening Inventory
+Contact Last Name
+Closing Inventory
+Country
+Province Or State Multiscript
+Retailer Start Date
+Week Day
+Department Code
+Quantity Shipped
+Followup Code
+Inventory
+First Name Multiscript
+Order Detail Code
+Product Brand
+Product Size Code
+Product
+Retailer Activity Status Code
+Retailer Country
+Returned Items
+Day Of The Week Close Date
+Date Close Date
+Order Number Value
+Measure
+Month Key Ship Date
+Manager
+Retailer Code
+Day Key Ship Date
+Extension
+Expected Volume
+Time Close Date
+Product Cost
+Discontinued Date
+Gender
+Retailer Address2
+Forecast Unit Price
+Branch Code
+Quarter Close Date
+Day Of The Month Close Date
+Retailer Address1
+Sales Region
+Retailer Name Multiscript
+Province State Multiscript
+Month Key
+Address1
+Days In The Month Ship Date
+Week Of The Quarter Close Date
+Gross Profit
+Week Of The Month Close Date
+Retailer
+Retailer Address1 Multiscript
+Product Line
+Week Day Close Date
+Sales Rep Order Value
+Forecast Revenue
+Retailer Postal Zone
+Manager Code
+Address2
+First Name
+Year Ship Date
+Quarter
+Week Of The Year Ship Date
+Product Size
+Revenue
+Last Name
+Additions
+Position Start Date
+Day Of The Month
+Warehouse Branch Code
+Quantity
+Current Year Ship Date
+Postal Zone
+Day Of The Year Ship Date
+Day Of The Month Ship Date
+Day Key Close Date
+Forecast Unit Cost
+Sales
+Unit Cost
+Branch Code Value
+Return Quantity
+Product Line Code
+Date Hired
+Week Of The Quarter Ship Date
+Week Of The Quarter
+Products
+Sales Staff Code
+Planned Revenue
+City Multiscript
+Day Of The Week Ship Date
+Order
+Day Of The Year Close Date
+Contact Name
+Order Method Type
+Email
+Branch
+Retailer Province State Multiscript
+Product Color
+Retailer Contact Position
+Quantity Value
+Quarter Key
+Base Product Number
+Retailer Address2 Multiscript
+Time Ship Date
+Sales Target
+Retailer Country Code
+Returns Total Value
+Reason Description
+Province Or State
+Week Of The Month Ship Date
+Retailer Type Code

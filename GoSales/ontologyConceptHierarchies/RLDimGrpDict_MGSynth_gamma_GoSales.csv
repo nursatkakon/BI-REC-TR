@@ -1,0 +1,161 @@
+First Name Multiscript-->Staff Name
+Month Number-->Month
+Current Month Ship Date-->Month Ship Date
+Day Of The Month Ship Date-->Day Ship Date
+Month Close Date-->Days In The Month Close Date;Month Key Close Date
+Product-->Base Product Number
+Day Of The Month-->Day
+Gender-->Retailer Site
+Product Type Code-->Product Details
+Day Ship Date-->Week Of The Month Ship Date;Week Day Ship Date;Week Of The Year Ship Date;Date Ship Date;Day Key Ship Date;Day Of The Month Ship Date;Day Of The Year Ship Date;Day Of The Week Ship Date;Week Of The Quarter Ship Date
+Month-->Month Number;Month Numeric;Days In The Month;Month Value;Month Key
+Retailer City Multiscript-->Retailer Site
+Department Parent-->Staff Name
+Retailer Postal Zone Multiscript-->Retailer Site
+Branch Code-->Organization;Address2 Multiscript;Postal Zone;City;Country Code;City Multiscript;Organization Code
+Retailer Name Multiscript-->Retailer
+Position Code-->Staff Name
+Product Description-->Product Details
+Retailer Address1-->Retailer Site
+Day Of The Month Close Date-->Day Close Date
+Quarter Close Date-->Quarter Key Close Date
+Year Close Date Value-->Year Close Date
+Retailer Address2-->Retailer Site
+Position-->Staff Name
+Warehouse Branch Code-->Branch Code
+Week Of The Quarter Ship Date-->Day Ship Date
+Year Value-->Year
+Quarter Key Close Date-->Quarter Close Date
+Retailer Start Date-->Retailer
+Product Size Code-->Product Details
+Order Detail Code Value-->Order Detail Code
+Termination Date-->Staff Name
+Week Of The Quarter Close Date-->Day Close Date
+Day Of The Year Close Date-->Day Close Date
+Year Ship Date-->Current Year Ship Date
+Staff Name Multiscript-->Staff Name
+Contact Last Name Multiscript-->Retailer Site
+Record Start Date-->Staff Name
+Contact First Name-->Retailer Site
+Country-->Branch Code
+Contact Last Name-->Retailer Site
+Year Close Date-->Year Close Date Value
+Last Name-->Staff Name
+Province Or State-->Branch Code
+Current Quarter Ship Date-->Quarter Ship Date
+Organization-->Branch Code
+Product Number-->Product Details
+Last Name Multiscript-->Staff Name
+Day Close Date-->Day Of The Month Close Date;Week Of The Quarter Close Date;Day Of The Year Close Date;Day Key Close Date;Week Day Close Date;Date Close Date;Week Of The Month Close Date;Week Of The Year Close Date;Day Of The Week Close Date
+Day Of The Year Ship Date-->Day Ship Date
+Branch Code Value-->Branch Code
+Retailer Country Code-->Retailer Country
+Province State-->Staff Name
+Week Of The Month Ship Date-->Day Ship Date
+Retailer Postal Zone-->Retailer Site
+Record End Date-->Staff Name
+Return Reason Code-->Reason Description
+Birth Date-->Staff Name
+Week Of The Year Close Date-->Day Close Date
+Day Of The Week-->Day
+Retailer-->Retailer Name Multiscript;Retailer Code;Retailer Start Date
+Day Key Ship Date-->Day Ship Date
+Sales Region Code-->Region
+Position Start Date-->Staff Name
+Order Method Code-->Order Method Type
+Retailer Site Code-->Retailer Site
+Date Close Date-->Day Close Date
+Postal Zone-->Branch Code
+Product Brand Code-->Product Brand Type
+Week Of The Quarter-->Day
+City Multiscript-->Branch Code
+Quarter Key Ship Date-->Quarter Ship Date
+Product Size-->Product Details
+Week Day Ship Date-->Day Ship Date
+Week Of The Year Ship Date-->Day Ship Date
+Termination Code-->Staff Name
+Month Ship Date-->Current Month Ship Date;Days In The Month Ship Date;Month Key Ship Date
+Year-->Year Value
+Week Of The Year-->Day
+Phone Number-->Retailer Site
+Day-->Day Of The Week;Day Of The Year;Week Of The Year;Week Day;Day Of The Month;Week Of The Quarter;Day Key;Date;Week Of The Month
+Product Details-->Product Image;Discontinued Date;Product Number;Product Color;Product Color Code;Introduction Date;Product Size Code;Product Type Code;Product Size;Product Brand;Product Type;Product Description;Product Line
+Product Line-->Product Line Code;Product Details
+Quarter-->Quantity Value;Quarter Key;Quantity Numeric
+Product Line Code-->Product Line
+Discontinued Date-->Product Details
+Email-->Retailer Site
+Address1 Multiscript-->Staff Name
+Address2 Multiscript-->Branch Code
+Quarter Key-->Quarter
+First Name-->Staff Name
+Week Of The Month Close Date-->Day Close Date
+Manager-->Staff Name
+Month Value-->Month
+Current Year Ship Date-->Year Ship Date
+Days In The Month Close Date-->Month Close Date
+Week Day Close Date-->Day Close Date
+Quarter Ship Date-->Current Quarter Ship Date;Quarter Key Ship Date
+Retailer Contact Code-->Retailer Site
+Day Of The Week Close Date-->Day Close Date
+Month Key-->Month
+Day Key Close Date-->Day Close Date
+Order Detail Code-->Order Detail Code Value
+Manager Multiscript-->Staff Name
+Product Color-->Product Details
+Contact Name-->Retailer Site
+Province Or State Multiscript-->Branch Code
+Day Of The Week Ship Date-->Day Ship Date
+City-->Branch Code
+Quantity Numeric-->Quarter
+Retailer Site-->Retailer Address1;Retailer Address2;Email;Retailer Site Start Date;Contact Name;Retailer Site Code;Gender;Retailer Address1 Multiscript;Retailer Address2 Multiscript;Retailer Activity Status Code;Contact First Name Multiscript;Retailer City Multiscript;Retailer Postal Zone;Retailer Postal Zone Multiscript;Contact Last Name Multiscript;Contact First Name;Contact Last Name;Retailer Province State;Retailer Contact Code;Fax;Phone Number;Retailer Contact Position;Retailer Province State Multiscript
+Manager Code-->Staff Name
+Week Of The Month-->Day
+Days In The Month Ship Date-->Month Ship Date
+Product Type-->Product Details
+Day Of The Year-->Day
+Days In The Month-->Month
+Region-->Sales Region Code
+Retailer Province State-->Retailer Site
+Department Code-->Staff Name
+Order Number-->Order Number Value
+Product Image-->Product Details
+Retailer Site Start Date-->Retailer Site
+Sales Staff Code-->Staff Name
+Employee History Code-->Staff Name
+Month Numeric-->Month
+Quantity Value-->Quarter
+Retailer Code-->Retailer
+Retailer Country-->Retailer Country Code
+Product Color Code-->Product Details
+Work Phone-->Staff Name
+Introduction Date-->Product Details
+Retailer Address1 Multiscript-->Retailer Site
+Retailer Address2 Multiscript-->Retailer Site
+Retailer Activity Status Code-->Retailer Site
+Organization Code-->Branch Code
+Date Ship Date-->Day Ship Date
+Product Brand-->Product Details
+Contact First Name Multiscript-->Retailer Site
+Order Number Value-->Order Number
+Month Key Close Date-->Month Close Date
+Week Day-->Day
+Staff Name-->First Name Multiscript;Last Name Multiscript;Sales Staff Code;Address1 Multiscript;Employee History Code;First Name;Work Phone;Manager;Province State;Department Parent;Record End Date;Position Code;Birth Date;Position Start Date;Manager Multiscript;Position;Address2;Gender Code;Address1;Manager Code;Date Hired;Extension;Termination Date;Termination Code;Staff Name Multiscript;Record Start Date;Province State Multiscript;Last Name;Department Code;Employee History Parent
+Retailer Contact Position-->Retailer Site
+Retailer Province State Multiscript-->Retailer Site
+Order Method Type-->Order Method Code
+Product Brand Type-->Product Brand Code
+Address2-->Staff Name
+Gender Code-->Staff Name
+Address1-->Staff Name
+Date-->Day
+Date Hired-->Staff Name
+Extension-->Staff Name
+Province State Multiscript-->Staff Name
+Country Code-->Branch Code
+Month Key Ship Date-->Month Ship Date
+Fax-->Retailer Site
+Day Key-->Day
+Employee History Parent-->Staff Name
+Base Product Number-->Product
+Reason Description-->Return Reason Code

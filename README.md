@@ -25,5 +25,6 @@ The files present here show how the sessions are distributed to the measure grou
 - ST-Gamma: Sessions following a gamma distribution
 - ST-Normal: Sessions following a normal distribution
 - ST-Uniform: Sessions following a uniform distribution
-
+	- session_graph_noMeasGrp - This prefix for a sessions csv file indicates the ontology expansion level "{BI}" described in the paper, that does not capture ontology neighborhood.
+	
 

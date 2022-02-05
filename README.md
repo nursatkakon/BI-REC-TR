@@ -5,7 +5,7 @@ The technical report is added as a pdf file titled TechnicalReport.pdf.
 
 Due to proprietary reasons, we cannot release the source code of BI-REC or the Health Insights dataset as both are held by the patent rights under the ownership of IBM.
 
-We make the GoSales dataset used in the paper publicly available. Besides the appendix available in the paper, following is the information provided that helps in the reproducibility of our system BI-REC.
+We make the GoSales dataset used in the paper publicly available. Besides the appendix available in the paper, we are providing the following information to help the reproducibility of our system BI-REC.
 
 #### 1. /GoSales/Base-Ontology/
 

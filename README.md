@@ -4,6 +4,6 @@ Due to proprietary reasons, we cannot release the source code of BI-REC or the H
 
 We make the GoSales dataset used in the paper publicly available. Following is the information provided that helps in the reproducibility of our system BI-REC.
 
-#1) GoSales/Base-Ontology/
+# 1) GoSales/Base-Ontology/
 
 Under this

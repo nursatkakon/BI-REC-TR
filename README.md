@@ -17,7 +17,7 @@ The additional synthetic measure groups and measures introduced into the ontolog
 
 #### 3. /GoSales/probabilityDistributions/
 
-The files present here show how the sessions are distributed to the measure groups available in the ontology, as per various statistical distributions. The parameters for these distributions are in Table 1 in the paper. In order to reflect real human behavior and to preserve fairness, we do not force all the measure groups to participate in the sessions.
+The files present here show how the sessions are distributed to the measure groups available in the ontology, as per various statistical distributions. The parameters for these distributions are in Table 1 in the paper. In order to reflect real human behavior and to preserve fairness by not giving any approach a statistical advantage, we do not force all the measure groups to participate in the sessions.
 
 
 

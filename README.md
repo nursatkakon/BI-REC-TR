@@ -21,10 +21,13 @@ The files present here show how the sessions are distributed to the measure grou
 
 #### 4. /GoSales/ST-Sessions/
 
-- ST-Exp: Sessions following an exponential distribution are under this folder.
-- ST-Gamma: Sessions following a gamma distribution
-- ST-Normal: Sessions following a normal distribution
-- ST-Uniform: Sessions following a uniform distribution
-	- session_graph_noMeasGrp - This prefix in a sessions file indicates the ontology expansion level "{BI}" described in the paper, that does not capture ontology neighborhood.
+- *ST-Exp*: Sessions following an exponential distribution are under this folder.
+- *ST-Gamma*: Sessions following a gamma distribution.
+- *ST-Normal*: Sessions following a normal distribution.
+- *ST-Uniform*: Sessions following a uniform distribution.
+	- *session_graph_noMeasGrp* - This prefix in a sessions file indicates the ontology expansion level "{BI}" described in the paper, that does not capture ontology neighborhood.
+	- *session_graph_inclMeasGrp* - indicates the ontology expansion level "{BI, MG, EM}" that captures ontology neighborhood until expanded measures.
+	- *session_graph_inclDimGrp* - indicates the ontology expansion level "{BI, MG, EM, DG}" that captures ontology neighborhood until dimension groups.
+	- *session_graph_inclExpDim* - indicates the ontology expansion level "{BI, MG, EM, DG, ED}" that captures ontology neighborhood until expanded dimensions.
 	
 

@@ -30,4 +30,11 @@ The files present here show how the sessions are distributed to the measure grou
 	- *session_graph_inclDimGrp* - indicates the ontology expansion level "{BI, MG, EM, DG}" that captures ontology neighborhood until dimension groups.
 	- *session_graph_inclExpDim* - indicates the ontology expansion level "{BI, MG, EM, DG, ED}" that captures ontology neighborhood until expanded dimensions.
 	
+#### 5. /GoSales/BT-Sessions/
+
+- *BT-Sessions-For-ST-Exp*: Sessions following various distributions for BI operation transitions between consecutive user queries or BI patterns are in this folder. The original workload used as the base workload is ST-Exp.
+- *BT-Sessions-For-ST-Gamma*: BI transition variations for the default ST-Gamma workload.
+- *BT-Sessions-For-ST-Normal*: BI transition variations for the default ST-Normal workload.
+- *BT-Sessions-For-ST-Uniform*: BI transition variations for the default ST-Uniform workload.
+	- *session_graph_inclMeasGrp_aug_MGSynth_A_BITrans_B_GoSales.csv* - This indicates that the ST-workload uses probability distribution *A* for sessions per measure group and the probability distribution *B* is used to determine the BI operator transition probabilities.
 

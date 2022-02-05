@@ -7,12 +7,16 @@ Due to proprietary reasons, we cannot release the source code of BI-REC or the H
 
 We make the GoSales dataset used in the paper publicly available. Besides the appendix available in the paper, following is the information provided that helps in the reproducibility of our system BI-REC.
 
-### 1. /GoSales/Base-Ontology/
+#### 1. /GoSales/Base-Ontology/
 
 Under this folder, we have a file GOSALES_OLAP.owl which is the original ontology from the financial domain.
 
-### 2. /GoSales/syntheticVocabulary/
+#### 2. /GoSales/syntheticVocabulary/
 
 The additional synthetic measure groups and measures introduced into the ontology help us create a large-scale ontology that help a comprehensive evaluation of BI-REC. This folder contains the files corresponding to the synthetic ontology concepts (measure groups and measures) and the enhanced vocabulary.
 
-### 3. /GoSales/
+#### 3. /GoSales/probabilityDistributions/
+
+The files present here show how the sessions are distributed to the measure groups available in the ontology, as per various statistical distributions. The parameters for these distributions are in Table 1 in the paper. In order to reflect real human behavior, we do not force all the measure groups to participate in the sessions. Also, at least two sessions are distributed to each measure group. This is an effort to ensure that the distributions are not too skewed and by doing so, we prevent BI-REC from getting a statistical advantage over the baseline in prediction latency. This way, we preserve fairness in our experiments.
+
+

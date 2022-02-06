@@ -3,9 +3,9 @@
 
 The technical report is added as a pdf file titled TechnicalReport.pdf.
 
-Due to proprietary reasons, we cannot release the source code of BI-REC or the Health Insights dataset as both are held by the patent rights under the ownership of IBM.
+The techniques implemented in BI-REC have been patented by IBM. Further the healthcare dataset HI contains sensitive data and is proprietary to IBM. Hence both the source code for BI-REC and the HI dataset cannot be made publicly available at this time. 
 
-We make the GoSales dataset used in the paper publicly available. Besides the appendix available in the paper, we are providing the following information to help the reproducibility of our system BI-REC.
+However, in order to help with reproducibility of our proposed solution, we are making the GoSales dataset publicly available. As a part of that effort, we have made the following items available on our GitHub repository.
 
 #### 1. /GoSales/Base-Ontology/
 

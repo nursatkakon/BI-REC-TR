@@ -13,7 +13,7 @@ Under this folder, we have a file GOSALES_OLAP.owl which is the original ontolog
 
 #### 2. /GoSales/syntheticVocabulary/
 
-The additional synthetic measure groups and measures introduced into the ontology help us create a large-scale ontology that help a comprehensive evaluation of BI-REC. This folder contains the files corresponding to the synthetic ontology concepts (measure groups and measures) and the enhanced vocabulary.
+The additional synthetic measure groups and measures introduced into the ontology help us create a large-scale ontology for a comprehensive evaluation of BI-REC. This folder contains the files corresponding to the synthetic ontology concepts (measure groups and measures) and the enhanced vocabulary.
 
 #### 3. /GoSales/probabilityDistributions/
 
